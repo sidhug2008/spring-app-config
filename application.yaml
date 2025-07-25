@@ -1,8 +1,7 @@
-eureka:
-  instance:
-    preferIpAddress: true
-    hostname: localhost
+eureka:   
   client:
+    instance:
+      preferIpAddress: true 
     fetchRegistry: false
     registerWithEureka: true
     serviceUrl:
